@@ -1,0 +1,266 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    
+
+}
+
+body{
+    background: 
+    linear-gradient(180deg, rgba(42,34,187,0.7) 10%, rgba(115,115,226,0.7) 35%, rgba(78,78,228,0.7) 53%, rgba(0,212,255,0.7)),
+    url(images/slider2.png) no-repeat center center  ;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+
+    
+
+}
+    
+
+/* Container -Start*/
+
+.container{
+    display: flex;
+    margin-top: 5px;
+    
+    
+    
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.logo{
+    display: block;
+    text-align: start;
+    flex-grow: 1;
+}
+
+
+.logo a{
+    margin-left: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #fd5f00;
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+}
+.logo h3{
+    text-align: center;
+    margin-top: -10px;
+
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 2;
+    
+}
+
+
+.menu ul li{
+    display:inline-block;
+    padding: 15px;
+
+}
+.menu ul li a{
+    text-align: center;
+    list-style-type: none;
+    text-decoration:none;
+    color: 
+    white;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.menu ul li a:hover{
+    color:#fd5f00 ;
+}
+
+/*Container-Finish*/
+
+/* Home page-start*/
+
+.home{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    margin-top: 40px;
+   
+}
+.content{
+    margin: 30px;
+    padding: 20px;
+    width: 600px;
+    height: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.content h3{
+    font-size: 40px;
+    
+}
+
+.content a{
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    color:white;
+    background-color: #fd5f00;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    
+}
+/* Home page-finish*/
+
+/* Footer-start*/
+
+.footer-social{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    margin-top: -30px ;
+   
+    
+}
+.footer-icons ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+
+.footer-icons a{
+    color: white;
+    font-size: 23px ;
+    
+}
+.footer-icons a:hover{
+    color: #fd5f00;
+}
+
+/*about page-start*/
+
+.about{
+    width: 100%;
+    height: 100vh;
+}
+
+.about-container{
+    display: block;
+    text-align: center;
+    
+    padding-top:50px;
+    
+
+}
+.about-text{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.about-text p{
+    padding-top: 20px;
+    font-size:20px;
+    line-height: 1.6;
+}
+
+/* Beers page -Start*/
+
+.box-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 300px;
+
+}
+.box{
+    padding: 30px;
+    margin: 50px;
+    -webkit-backdrop-filter: blur(8px);  
+    backdrop-filter: blur(8px); 
+    border-radius: 3rem;
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between ;
+}
+.box h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding: 10px;
+}
+.box .price{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+.box img{
+    width:200px;
+    height: 300px;
+    object-fit: scale-down;
+    
+}
+.buttom a{
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    color:white;
+    background-color: #fd5f00;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+/* Beers page -finish*/
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
